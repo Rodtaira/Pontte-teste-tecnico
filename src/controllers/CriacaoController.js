@@ -4,6 +4,7 @@ const { v4: uuidv4 }    =   require('uuid');
 class CriacaoController{
     static async createCriacao(req, res){
         const birthDate = new Date(req.body.birthDate)
+
         try {
             req.state = [false, false, false]
             await database.Criacoes.create({

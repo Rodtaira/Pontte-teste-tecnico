@@ -12,13 +12,15 @@ module.exports = (sequelize, DataTypes) => {
         allowNull:false
       },
     email: 
-      { 
+      {
+        unique: true,  
         allowNull: false, 
         unique: true, 
         type: DataTypes.STRING
       },      
     cpf: 
       {
+        unique: true, 
         type: DataTypes.STRING, 
         allowNull: false, 
       },

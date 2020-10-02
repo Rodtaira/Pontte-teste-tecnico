@@ -1,0 +1,19 @@
+Criando o Banco de Dados
+
+npx sequelize-cli db:create
+
+Criando Models 
+
+npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+
+Rodando Migrations 
+
+npx sequelize-cli db:migrate
+
+Criando Seeds
+
+npx sequelize-cli seed:generate --name demo-pessoa
+
+Rodandos Seeds
+
+npx sequelize-cli db:seed:all
