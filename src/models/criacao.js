@@ -45,9 +45,11 @@ module.exports = (sequelize, DataTypes) => {
       {
         type: DataTypes.STRING
       }
-  }, {});
+  }, {})
   Criacoes.associate = function(models) {
-    // associations can be defined here
-  };
+    Criacoes.hasOne(models.UploadImages, {
+      foreignKey: 'CriacoesID'
+    })
+  }
   return Criacoes;
-};
+}
