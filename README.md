@@ -34,8 +34,9 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 - Caso tente fazer esse endpoint antes de resolver o endoint /criacao e /upload. Essa mensagem será mostrada:
 ![Screenshot from 2020-10-07 22-42-16](https://user-images.githubusercontent.com/18682770/95405510-62566580-08ee-11eb-8ecd-165234760853.png)
 - Existem 2 endpoins que utilizam o método PUT
-- O endpoint para atualizar uma Criação, possui a seguinte estrutura: /updateCriacao/:criacaoID/:aprovacaoID
+- O endpoint para atualizar uma Criação, possui a seguinte formato: /updateCriacao/:criacaoID/:aprovacaoID
 ![Screenshot from 2020-10-07 22-57-30](https://user-images.githubusercontent.com/18682770/95406337-8f0b7c80-08f0-11eb-8e6e-a1e2a59f7833.png)
+- O endpoint para atualizar uma Aprovação, possui a seguinte formato: /updateAprovacao/:aprovacaoID
 
 
 
