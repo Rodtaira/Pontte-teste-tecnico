@@ -31,6 +31,9 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 ![Screenshot from 2020-10-07 22-42-16](https://user-images.githubusercontent.com/18682770/95405510-62566580-08ee-11eb-8ecd-165234760853.png)
 - O endpoint para fazer o estado de aprovação, para criar uma nova Aprovação, pode ser feita da seguinte maneira:
 
+![Screenshot from 2020-10-07 22-34-26](https://user-images.githubusercontent.com/18682770/95405128-50c08e00-08ed-11eb-9361-7fc3b0fa048d.png)
+
+
 
 
 
