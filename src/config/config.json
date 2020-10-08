@@ -1,14 +1,14 @@
 {
   "development": {
-    "username": "rodtaira",
-    "password": "popo123",
+    "username": "root",
+    "password": null,
     "database": "pontte-api",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "rodtaira",
-    "password": "popo123",
+    "username": "root",
+    "password": null,
     "database": "pontte-api",
     "host": "127.0.0.1",
     "dialect": "mysql"
