@@ -25,6 +25,8 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 ![Screenshot from 2020-10-07 22-09-44](https://user-images.githubusercontent.com/18682770/95403952-17d2ea00-08ea-11eb-935f-4135a61f172a.png)
 - O endpoint para fazer o upload das Imagens, pode ser feita da seguinte maneira:
 ![Screenshot from 2020-10-07 22-34-26](https://user-images.githubusercontent.com/18682770/95405128-50c08e00-08ed-11eb-9361-7fc3b0fa048d.png)
+- Caso seja omitido o campo de Documento, essa mensagem será mostrada:
+![Screenshot from 2020-10-07 22-37-50](https://user-images.githubusercontent.com/18682770/95405285-c7f62200-08ed-11eb-9af2-2808492d5763.png)
 
 
 
