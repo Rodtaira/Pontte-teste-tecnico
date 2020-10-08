@@ -21,8 +21,6 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 - Existem 3 endpoints que utilizam o método POST 
 - O endpoint para criar uma nova Criação, pode ser feita da seguinte maneira: 
 ![Screenshot from 2020-10-07 21-56-37](https://user-images.githubusercontent.com/18682770/95403452-a5153f00-08e8-11eb-96c3-4d2bf4576fef.png)
-
-# Caso seja omitido algum dos valores obrigatórios como Nome, Email, CPF, Valor do Empréstimo, essa mensagem será mostrada: 
-
+- Caso seja omitido algum dos valores obrigatórios como Nome, Email, CPF, Valor do Empréstimo, essa mensagem será mostrada: 
 ![Screenshot from 2020-10-07 22-09-44](https://user-images.githubusercontent.com/18682770/95403952-17d2ea00-08ea-11eb-935f-4135a61f172a.png)
 
