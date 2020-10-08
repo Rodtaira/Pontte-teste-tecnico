@@ -43,7 +43,8 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 ![Screenshot from 2020-10-07 23-02-41](https://user-images.githubusercontent.com/18682770/95406646-430d0780-08f1-11eb-98de-3b32a05870da.png)
 
 # Conclusão
-- Infelizmente não consegui desenvolver o endopoint para fazer a atualização das imagens, pois teria que ver uma maneira de atualizar as imagens correspondentes ao contrato na pasta public/images que é o local que são guardadas as imagens. 
+- Infelizmente não consegui desenvolver o endopoint para fazer a atualização das imagens, pois teria que ver uma maneira de atualizar as imagens correspondentes ao contrato na pasta public/images que é o local que são guardadas as imagens.
+- E também não consegui terminar de escrever os testes de integração dos endpoints. 
 
 
 
