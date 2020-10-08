@@ -37,7 +37,7 @@ Teste para a empresa Pontte desenvolvido utilizando Node e Banco de Dados MySQL
 - O endpoint para atualizar uma Criação, possui a seguinte formato: /updateCriacao/:criacaoID/:aprovacaoID
 ![Screenshot from 2020-10-07 22-57-30](https://user-images.githubusercontent.com/18682770/95406337-8f0b7c80-08f0-11eb-8e6e-a1e2a59f7833.png)
 - Caso o status da Aprovação seja true. A seguinte mensagem será mostrada:
-
+![Screenshot from 2020-10-07 23-06-29](https://user-images.githubusercontent.com/18682770/95406857-d6463d00-08f1-11eb-9847-d63045d0fefd.png)
 - O endpoint para atualizar uma Aprovação, possui a seguinte formato: /updateAprovacao/:aprovacaoID
 ![Screenshot from 2020-10-07 23-02-41](https://user-images.githubusercontent.com/18682770/95406646-430d0780-08f1-11eb-98de-3b32a05870da.png)
 
