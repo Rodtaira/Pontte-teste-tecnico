@@ -1,12 +1,6 @@
 
 module.exports = (sequelize, DataTypes) => {
   const UploadImages = sequelize.define('UploadImages', {
-    id:
-    { unique: true, 
-      allowNull: false, 
-      primaryKey: true,
-      type: DataTypes.UUID
-    }, 
     documentoImage: 
     {
       type: DataTypes.STRING, 
@@ -20,14 +14,14 @@ module.exports = (sequelize, DataTypes) => {
     {
       type: DataTypes.STRING
     },
-    CriacaoID: {
+    CriacoesID: {
       allowNull: false,
       type: DataTypes.UUID,
       references: { model: 'Criacoes', key: 'id'}
     }
   }, {})
   UploadImages.associate = function(models) {
-    UploadImages.belongsTo(models.Criacoes)
+    UploadImages.belongsTo(models.Criacoes,  {foreignKey: 'CriacoesID'})
   }
   return UploadImages
 }

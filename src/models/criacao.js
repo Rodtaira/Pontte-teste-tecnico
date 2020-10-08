@@ -1,11 +1,5 @@
 module.exports = (sequelize, DataTypes) => {
   const Criacoes = sequelize.define('Criacoes', {
-    id:
-      { unique: true, 
-        allowNull: false, 
-        primaryKey: true,
-        type: DataTypes.UUID
-      }, 
     name: 
       {
         type: DataTypes.STRING, 
@@ -48,6 +42,9 @@ module.exports = (sequelize, DataTypes) => {
   }, {})
   Criacoes.associate = function(models) {
     Criacoes.hasOne(models.UploadImages, {
+      foreignKey: 'CriacoesID'
+    })
+    Criacoes.hasOne(models.Aprovacoes, {
       foreignKey: 'CriacoesID'
     })
   }

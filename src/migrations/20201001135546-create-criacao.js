@@ -17,6 +17,7 @@ module.exports = {
       email: {
         type: Sequelize.STRING, 
         allowNull: false, 
+        unique:true,
         validate: {
           notNull: { msg: "email is required" },
         }
@@ -24,6 +25,7 @@ module.exports = {
       cpf: {
         type: Sequelize.STRING, 
         allowNull: false, 
+        unique:true,
         validate: {
           notNull: { msg: "CPF is required" },
         }

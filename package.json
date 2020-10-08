@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/app.js",
     "start": "node src/app.js",
-    "test": "jest"
+    "test": "jest "
   },
   "author": "Rodrigo T. Taira",
   "license": "ISC",
@@ -15,10 +15,12 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
     "mysql2": "^2.2.5",
     "path": "^0.12.7",
     "sequelize": "^6.3.5",
-    "sequelize-cli": "^6.2.0"
+    "sequelize-cli": "^6.2.0",
+    "xstate": "^4.13.0"
   },
   "devDependencies": {
     "jest": "^26.4.2",

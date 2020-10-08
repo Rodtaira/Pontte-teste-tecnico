@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.bulkInsert('Aprovacoes', [{
         id: uuidv4(),
         status: false,
-        CriacaoID: '2ccf00c7-0fe8-4533-a624-a00326788e4e', 
+        CriacoesID: '2ccf00c7-0fe8-4533-a624-a00326788e4e', 
         createdAt: new Date(), 
         updatedAt: new Date()
       }], {});

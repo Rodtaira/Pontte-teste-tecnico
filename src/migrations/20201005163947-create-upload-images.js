@@ -8,7 +8,11 @@ module.exports = {
         type: Sequelize.UUID
       },
       documentoImage: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false, 
+        validate: {
+          notNull: { msg: "Documento Obrigatório" },
+        } 
       },
       comprovanteRendaImage: {
         type: Sequelize.STRING
@@ -16,7 +20,7 @@ module.exports = {
       imovelImage: {
         type: Sequelize.STRING
       },
-      CriacaoID: {
+      CriacoesID: {
         allowNull: false,
         type: Sequelize.UUID,
         references: { model: 'Criacoes', key: 'id'}

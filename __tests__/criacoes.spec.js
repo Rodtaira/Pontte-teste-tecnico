@@ -1,12 +1,12 @@
-const app = require('../src/app')
-const supertest = require('supertest')
-const { v4: uuidv4 } = require('uuid');
-const request = supertest(app) 
+// const app = require('../src/app')
+
+const { v4: uuidv4 } = require('uuid')
+const request = require('supertest')
 
 
-describe('Test of the POST request /criacao', () =>{
-    it('should save a new record and return a 200 status', async () => {
+describe('Teste de uma requisição POST no Endpoint /criacao', () =>{
 
+    it('deve-ser salvar novos valores de Criação no Banco de Dados e retornar status 200', async () => {
         const objectData = {
             id: uuidv4(),
             name: 'Luna Katrina',
@@ -23,8 +23,7 @@ describe('Test of the POST request /criacao', () =>{
     
     })
 
-    it('should not save a new record and return a 406 status, because one or more required field is empty', async () => {
-
+    it('não deve salvar uns valores de Criação no Banco de Dados e deve retornar status 406, pois um ou mais valores obrigatórios não foi preenchido', async () => {
         const objectData = {
             id: uuidv4(),
             name: 'Anitta Pituka',

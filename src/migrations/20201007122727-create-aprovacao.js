@@ -10,7 +10,7 @@ module.exports = {
       status: {
         type: Sequelize.BOOLEAN
       },
-      CriacaoID: {
+      CriacoesID: {
         allowNull: false,
         type: Sequelize.UUID,
         references: { model: 'Criacoes', key: 'id'}
